@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Теги для списков</title>
+    <h1 class="zag">Теги для списков - ul, ol</h1>
+    <style>
+        .zag {
+            color: #F55B5B;
+            background-color: #BFE756;
+            width: 400px;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 1.5;
+        }
+        .text1 {
+            color: #2B675D;
+            background-color: #BFE756;
+            width: 310px;
+            height: 30px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 1.5;
+        }
+
+        .text7 {
+            color: #F55B5B;
+        }
+
+        .text2 {
+            color: #2B675D;
+            background-color: #BFE756;
+            width: 310px;
+            height: 30px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 1.5;
+        }
+
+        .text3 {
+            color: #2B675D;
+            background-color: #BFE756;
+            width: 600px;
+            height: 70px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 1.5;
+        }
+
+        .text4 {
+            color: #2B675D;
+            background-color: #BFE756;
+            width: 600px;
+            height: 70px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 1.5;
+        }
+
+        .text5 {
+            color: #2B675D;
+            background-color: #BFE756;
+            width: 800px;
+            height: 70px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 1.5;
+        }
+
+        .vn1 {
+            color: #BFE756;
+            background-color: #2B675D;
+            width: 170px;
+            height: 185px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 0,5;
+        }
+
+        .vn2 {
+            color: #BFE756;
+            background-color: #2B675D;
+            width: 170px;
+            height: 205px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 0,5;
+        }
+
+        .vn3 {
+            color: #BFE756;
+            background-color: #2B675D;
+            width: 170px;
+            height: 300px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 0,5;
+        }
+        
+        .vn4 {
+            color: #BFE756;
+            background-color: #2B675D;
+            width: 170px;
+            height: 205px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 0,5;
+        }
+        .vn5 {
+            color: #BFE756;
+            background-color: #2B675D;
+            width: 170px;
+            height: 240px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 0,5;
+        }
+        .vn6 {
+
+        }
+
+        .text6 {
+            line-height: 12px;
+        }
+
+        .nazvanie {
+            line-height: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nazvanie">
+        <h4 class="text1">
+            1. Ненумерованный список - <span class="text7">ul</span> (см. ниже)</h4>
+    </div>
+    <!-- ненумерованный список -->
+    <div class="vn1">
+        <ul> <!-- отступ от края (без нумерации) -->
+            <li>Элемент</li> <!-- создает списки с кружочком -->
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент
+                <ul>
+                    <li>подпункт</li>
+                </ul> <!-- вложенный список. появляется подпункт с белым кружочком -->
+                <ul>
+                    <li>подпункт</li>
+                </ul> <!-- вложенный список. появляется подпункт с белым кружочком -->
+                <ul>
+                    <li>подпункт</li>
+                </ul> <!-- вложенный список. появляется подпункт с белым кружочком -->
+                <ul>
+                    <li>подпункт</li>
+                </ul> <!-- вложенный список. появляется подпункт с белым кружочком -->
+                <ul>
+                    <li>подпункт</li>
+                </ul> <!-- вложенный список. появляется подпункт с белым кружочком -->
+            </li>
+        </ul>
+    </div>
+
+    <div class="text2">
+        <h4>2. Нумерованный список - <span class="text7">ol</span> (см. ниже)</h4>
+    </div>
+    <!-- нумерованный список -->
+    <div class="vn2">
+        <ol>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>
+                Элемент
+                <ol>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+
+    <div class="text3">
+        <h4>3. Нумерованный список с вложенным ненумерованным списком. Также используется атрибут <span
+                class="text7">start</span>, который
+            указывает, с какого числа начнется мой список (см. ниже)</h4>
+    </div>
+    <div class="vn3">
+        <ol start="6"> <!-- нумерованный список с вложенным ненумерованным списком -->
+            <!-- атрибут - старт. я указала с какого числа начнется отсчет. в моем случае список начнется с цифры 6 -->
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li> Элемент
+                <ul>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                </ul>
+            </li>
+            <li>
+                Элемент
+                <ul>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div class="text4">
+        <h4>4. Нумерованный список с вложенным ненумерованным списком. Также используется атрибут <span
+                class="text7">reversed</span>, который
+            будет
+            нумеровать список в обратном порядке (см. ниже)</h4>
+    </div>
+    <div class="vn4">
+        <ol reversed> <!-- В данном случае список будет нумероваться в обратном порядке -->
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>
+                Элемент
+                <ul>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+
+    <div class="text5">
+        <h4>5. Нумерованный список с вложенным ненумерованным списком. Также используется атрибут <span
+                class="text7">reversed</span> и <span class="text7">start</span>, который
+            будет нумеровать список в обратном порядке, но при этом начнет список с цифры 6. Если количество элементов
+            будет
+            больше 6, то он пойдет в отрицательные цифры (см. ниже)</h4>
+    </div>
+    <div class="vn5">
+        <ol reversed start="6">
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>
+                Элемент
+                <ul>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                    <li>подпункт</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+<!--     <div class="text6">
+        <h4>
+            6. Теги dl, dt и dd используются для вёрстки списка описаний («dl» означает «description list»). У тега dl
+            есть
+            встроенная роль list, у dt — term, а у dd — definition
+        </h4>
+        <h6>
+            Как понять Скопировать ссылку "Как понять"
+            Иногда требуется сверстать не просто перечень элементов, а список терминов и их определений, либо просто
+            список
+            пар «ключ-значение». Семантически верно будет такие перечни верстать при помощи тегов dl, dt, dd.
+        </h6>
+        <h6>
+            Элемент dl аналогично элементам ul и ol является внешней обёрткой для элементов списка.
+        </h6>
+        <h6>
+            Элемент dt используется для вёрстки термина либо ключа в паре «ключ-значение». Как правило, следом за ним
+            идёт
+            либо ещё один тег dt (если есть необходимость сверстать несколько терминов с одним определением), либо тег
+            dd.
+        </h6>
+        <h6>
+            Тегом dd верстается определение термина, либо значение в паре «ключ-значение». Следом за этим тегом может
+            идти
+            как ещё один тег dd (если у термина несколько определений), так и тег dt (следующий термин).
+        </h6>
+
+        <p>Животные героев «Гарри Поттера»</p>
+        <dl>
+            <dt>Букля</dt>
+            <dd>Полярная сова Гарри Поттера</dd>
+            <dt>Живоглот</dt>
+            <dd>Полукот Гермионы Грейнджер</dd>
+            <dt>Пушистик</dt>
+            <dd>Кролик Лаванды Браун</dd>
+            <dt>Нагайна</dt>
+            <dd>Змея Волан-де-Морта</dd>
+        </dl>
+    </div>
+ -->
+
+
+</body>
+
+</html>
