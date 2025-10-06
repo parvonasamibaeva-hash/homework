@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="block"> </div>
+    <div> </div>
+    <div> </div>
+    <div class="block"> </div>
+    <div class="block"> </div>
+    <div id="block-1"> </div>
+    <div id="block-2"> </div>
+    <div style="background-color: rgb(215, 19, 19); width: 100px; height: 100px;"> </div>
+
+    <!-- class - класс моэем накинуть на несколько элементов один и тот же, то id блок мы вставляем только для одного элемента. 
+    id начинается с буквы, с цифр нельзя. при id мы понимаем, что такой элемент ОДИН
+    style мы можем прописать css свойства для конкретного элемента-->
+
+    <!--
+В значении данного атрибута можно ввести
+какую-либо подсказку, которая всплывёт при
+наведении на элемент
+http://htmlbook.ru/html/attr/title
+-->
+<div title="А вот и я!">Пример всплывающей подсказки. Наведи на меня мышкой и подожди немного
+
+</div>
+
+<!--
+Атрибут, позволяющий настраивать, можно ли фокусироваться
+на элементе с помощью клавиатуры (TAB или SHIFT+TAB)
+и в каком порядке фокус выделит именно его.
+https://developer.mozilla.org/ru/docs/Web/HTML/Global_attributes/tabindex
+-->
+<div tabindex="1">Нажми на TAB или SHIFT+TAP для того, чтобы выделить элемент</div>
+
+<!--
+Пользователь сможет редактировать текст данного элемента
+http://htmlbook.ru/html/attr/contenteditable
+-->
+<div contenteditable="true">Этот текст можно редактировать. Тыкни на меня дважды</div>
+
+<!--
+Скрывает элемент, подобно параметру display: none;
+https://doka.guide/html/hidden/
+-->
+<div hidden>Тут есть текст, но ты его не видишь</div>
+
+<!--
+Атрибут spellcheck определяет, будет ли проверяться
+правописание набираемого текста.
+Результат можно будет увидеть только в редактируемых элементах,
+таких как input, textaria и т.д., а также в элементах,
+для которых прописан contenteditable
+http://htmlbook.ru/html/attr/spellcheck
+-->
+<div contenteditable="true" spellcheck="false">Этот элемент проверяет правописание набираемого текста. НО! Результат можно увидеть в редактируемых элементах ((</div>
+
+
+</body>
+
+</html>
