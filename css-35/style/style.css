@@ -1,13 +1,10 @@
 .text {
-font-family: "Montserrat Alternates", 'Arial', sans-serif;
-font-size: 10px; /* размер букв */
-line-height: 50px; /* расстояние между строками */
-text-align: center; /* слева, по центру или справа */
+    font-family: "Times New Roman", 'Arial', sans-serif;
+font-size: 10; /* размер букв */
+line-height: 50; /* расстояние между строками */
 font-weight: 700; /* жирность */
 font-style: normal; /* наклон */
+text-align: center;/* слева, по центру или справа */
 }
 /* san-serif - шрифт с засечками
 serif - шрифт без засечек */
-
-
-
