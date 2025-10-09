@@ -1,10 +1,9 @@
 .text1 {
     font-family: 'Open Sans', 'Arial';
     font-weight: 300;
-    font-style: 20px;
-    line-height: 30px;
     font-style: italic;
-}
+    line-height: 30px;
+    }
 
 .text2 {
     font-family: 'Times New Roman', sans-serif;
@@ -21,7 +20,7 @@
 
 .text4 {
     font-family: 'Times New Roman', sans-serif;
-    font-style: 30px;
+    font-style: normal;
     word-spacing: 30px; 
     line-height: 50px;
     text-decoration: overline wavy; 
@@ -31,7 +30,7 @@
 
 .text5 {
     font-family: 'Times New Roman', sans-serif;
-    font-style: 30px;
+    font-style: normal;
     letter-spacing: 5px;
     text-decoration: underline double;
 }
