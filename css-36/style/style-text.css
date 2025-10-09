@@ -1,0 +1,37 @@
+.text1 {
+    font-family: 'Open Sans', 'Arial';
+    font-weight: 300;
+    font-style: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.text2 {
+    font-family: 'Times New Roman', sans-serif;
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+.text3 {
+    font-family: 'Times New Roman', sans-serif;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text4 {
+    font-family: 'Times New Roman', sans-serif;
+    font-style: 30px;
+    word-spacing: 30px; 
+    line-height: 50px;
+    text-decoration: overline wavy; 
+    color: #010b9b;
+    text-shadow: 2px 2px 5px #001e5b;
+}
+
+.text5 {
+    font-family: 'Times New Roman', sans-serif;
+    font-style: 30px;
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}
