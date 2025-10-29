@@ -1,0 +1,27 @@
+.block-1 {
+    background-color: #199681;
+    overflow-y: scroll;
+    max-height: 1000px;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 15px;
+}
+
+.button {
+    background-color: #962609;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 0px 0px 54px -19px #421104 inset;
+    }
+
+.block-3 {
+    color: #2af0cf;
+}
+
+.block-4 {
+    color: #2af0cf;
+}
